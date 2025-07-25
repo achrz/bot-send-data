@@ -1,0 +1,5 @@
+services:
+  spammer:
+    build: .
+    container_name: spammer
+    restart: always
