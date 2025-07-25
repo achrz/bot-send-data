@@ -7,4 +7,4 @@ COPY index.py .
 
 RUN pip install requests
 
-CMD ["python", "index.py"]
+CMD ["python", "-u", "index.py"]
